@@ -1,0 +1,1716 @@
+/** PRINCIPALES MEDIDAS MEDIA QUERY**
+<<<<<<<<<from 360px to 414px>>>>>>>>>>>>>*/
+@media screen and (max-width: 375px) {
+  html #b-about,
+  html #b-contact {
+    scroll-behavior: smooth;
+  }
+
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 49.9%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
+
+  .hello h4 {
+    font-size: 1.5rem;
+    margin: 35% 50% 5% 0;
+  }
+
+  .hello h1 {
+    font-size: 4.5rem;
+    margin: 10% 0;
+  }
+
+  .top-buttons a {
+    font-size: 1.2rem;
+    width: 12rem;
+    margin: 5% 15%;
+  }
+
+  /*menu*/
+  .main_menu {
+    display: none;
+  }
+
+  .toggle {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #2c4e79;
+    text-align: right;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+
+  /*.toggle #logo {
+    width: 60px;
+    background: #3a6aa6;
+    float: left;
+    padding: 0;
+  }*/
+
+  #times {
+    font-size: 40px;
+    position: relative;
+    right: 25px;
+    top: 15px;
+  }
+
+  .mobile_menu1 li,
+  .hamburguer-btn {
+    width: 100%;
+    list-style-type: none;
+    font-size: 40px;
+  }
+
+  .hamburguer-btn .fa-bars i,
+  .hambueguer-btn .fa-times i {
+    position: relative;
+    right: 25px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 40px;
+  }
+
+  .mobile_menu1 a li {
+    text-align: center;
+    display: none;
+    font-size: 1.2rem;
+    margin: 0.1rem;
+  }
+
+  .mobile_menu1 a li.active {
+    display: block;
+  }
+
+  /*sections*/
+  .title {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .me {
+    width: 13rem;
+    height: 13rem;
+    border: 6px solid #3a6aa6;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .my_description p {
+    font-size: 1rem;
+    padding: 1.5rem;
+    margin: 0;
+  }
+
+  #contact_me {
+    font-size: 1rem;
+    width: 120px;
+  }
+
+  /*interests*/
+  .icono {
+    font-size: 3.5rem;
+    width: 8rem;
+    height: 8rem;
+    margin: 0.5rem 1rem;
+  }
+
+  .interest-descr {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  /*con .card and .card img se puede regular el tamaño de las tarjetas*/
+  .card {
+    min-height: 17rem;
+  }
+  .card img {
+    margin: 3rem 0 1rem 0;
+    width: 14rem;
+    padding: 0;
+  }
+  .card-title {
+    margin: 25% 0 5% 0;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1.5rem 2.2rem 0 2.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  /*eventos*/
+
+  .title2 {
+    font-size: 3rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  .carousel-item img {
+    width: 280px;
+    max-height: 250px
+  }
+
+  .carousel-caption h5 {
+    font-size: 1rem;
+    min-width:100%;
+    padding: 0 1rem;
+  }
+
+  .carousel-caption p {
+  display:none;
+  }
+
+
+  .blue2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .cover-events {
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    min-width: 280px;
+    transform: translate(9%, 0%);
+  }
+
+
+  .contact-icons .col { 
+    padding: 0 5px;
+  } 
+
+  .contact-icons i {
+    font-size: 1.8rem;
+  }
+
+  .contact-icons p {
+    font-size: 1.1rem;
+    padding-top:0.15rem;
+  }
+  
+
+}
+/*<<<<<<<<<from 376px to 414px>>>>>>>>>>>>>*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  html #b-about,
+  html #b-contact {
+    scroll-behavior: smooth;
+  }
+
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 49.9%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
+
+  .hello h4 {
+    font-size: 1.5rem;
+    margin: 35% 50% 5% 0;
+  }
+
+  .hello h1 {
+    font-size: 4.5rem;
+    margin: 10% 0;
+  }
+
+  .top-buttons a {
+    font-size: 1.2rem;
+    width: 12rem;
+    margin: 5% 15%;
+  }
+
+  /*menu*/
+  .main_menu {
+    display: none;
+  }
+
+  .toggle {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #2c4e79;
+    text-align: right;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+
+  /*.toggle #logo {
+    width: 60px;
+    background: #3a6aa6;
+    float: left;
+    padding: 0;
+  }*/
+
+  #times {
+    font-size: 40px;
+    position: relative;
+    right: 25px;
+    top: 15px;
+  }
+
+  .mobile_menu1 li,
+  .hamburguer-btn {
+    width: 100%;
+    list-style-type: none;
+    font-size: 40px;
+  }
+
+  .hamburguer-btn .fa-bars i,
+  .hambueguer-btn .fa-times i {
+    position: relative;
+    right: 25px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 40px;
+  }
+
+  .mobile_menu1 a li {
+    text-align: center;
+    display: none;
+    font-size: 1.2rem;
+    margin: 0.1rem;
+  }
+
+  .mobile_menu1 a li.active {
+    display: block;
+  }
+
+  /*sections*/
+  .title {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .me {
+    width: 13rem;
+    height: 13rem;
+    border: 6px solid #3a6aa6;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .my_description p {
+    font-size: 1rem;
+    padding: 1.5rem;
+    margin: 0;
+  }
+
+  #contact_me {
+    font-size: 1rem;
+    width: 120px;
+  }
+
+  /*interests*/
+  .icono {
+    font-size: 3.5rem;
+    width: 8rem;
+    height: 8rem;
+    margin: 0.5rem 1rem;
+  }
+
+  .interest-descr {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  /*con .card and .card img se puede regular el tamaño de las tarjetas*/
+  .card {
+    min-height: 17rem;
+  }
+  .card img {
+    margin: 3rem 0 1rem 0;
+    width: 14rem;
+    padding: 0;
+  }
+  .card-title {
+    margin: 25% 0 5% 0;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1.5rem 2.2rem 0 2.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  /*eventos*/
+
+  .title2 {
+    font-size: 3rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  .carousel-item img {
+    width: 280px;
+    max-height: 250px
+  }
+
+  .carousel-caption h5 {
+    font-size: 1rem;
+    min-width:100%;
+    padding: 0 1rem;
+  }
+
+  .carousel-caption p {
+  display:none;
+  }
+
+  .cover-events {
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    min-width: 280px;
+    transform: translate(12%, 0%);
+  }
+
+
+  .contact-icons .col { 
+    padding: 0 5px;
+  } 
+
+  .contact-icons i {
+    font-size: 2rem;
+  }
+
+  .contact-icons p {
+    font-size: 1.4rem;
+    padding-top:0.15rem;
+  }
+
+  .blue2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+  /*contact*/
+
+  #contacto {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  form {
+    margin: 0;
+  }
+
+  .button2 {
+    font-size: 1rem;
+    width: 120px;
+  }
+
+  .contact-icons i {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+  .contact-icons p {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+}
+
+/*<<<<<<<<<415px-478px>>>>>>>>>*/
+@media screen and (min-width: 415px) and (max-width: 478px) {
+  html #b-about,
+  html #b-contact {
+    scroll-behavior: smooth;
+  }
+  /*cover*/
+
+  .container {
+    overflow-x: hidden;
+  }
+
+  .hello h4 {
+    font-size: 1.5rem;
+    margin: 35% 50% 5% 0;
+  }
+
+  .hello h1 {
+    font-size: 4.5rem;
+    margin: 10% 0;
+  }
+
+  .top-buttons a {
+    font-size: 1.2rem;
+    width: 12rem;
+    margin: 5% 15%;
+  }
+
+  /*menu*/
+  .main_menu {
+    display: none;
+  }
+
+  .toggle {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #2c4e79;
+    text-align: right;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+
+  /*.toggle #logo {
+    width: 60px;
+    background: #3a6aa6;
+    float: left;
+    padding: 0;
+  }*/
+
+  #times {
+    font-size: 40px;
+    position: relative;
+    right: 25px;
+    top: 15px;
+  }
+
+  .mobile_menu1 li,
+  .hamburguer-btn {
+    width: 100%;
+    list-style-type: none;
+    font-size: 40px;
+  }
+
+  .hamburguer-btn .fa-bars i,
+  .hambueguer-btn .fa-times i {
+    position: relative;
+    right: 25px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 40px;
+  }
+
+  .mobile_menu1 a li {
+    text-align: center;
+    display: none;
+    font-size: 1.2rem;
+    margin: 0.1rem;
+  }
+
+  .mobile_menu1 a li.active {
+    display: block;
+  }
+
+  /*sections*/
+  .title {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .me {
+    width: 13rem;
+    height: 13rem;
+    border: 6px solid #3a6aa6;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .my_description p {
+    font-size: 1rem;
+    padding: 1.5rem;
+    margin: 0;
+  }
+
+  #contact_me {
+    font-size: 1rem;
+    width: 120px;
+  }
+
+  /*interests*/
+  .icono {
+    font-size: 4.5rem;
+    width: 9rem;
+    height: 9rem;
+    margin: 1rem 2rem;
+  }
+
+  .interest-descr {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+  }
+
+  /*con .card and .card img se puede regular el tamaño de las tarjetas*/
+
+  .card img {
+    margin: 3rem 0 1rem 0;
+    width: 14rem;
+    padding: 0;
+  }
+  .card-title {
+    margin: 25% 0 5% 0;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1.5rem 2.2rem 0 2.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  /*eventos*/
+
+  .title2 {
+    font-size: 3rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  .carousel-item img {
+    width: 330px;
+    max-height: 250px
+  }
+
+  .carousel-caption h5 {
+    font-size: 1rem;
+    min-width:100%;
+    padding: 0 1rem;
+  }
+
+  .carousel-caption p {
+  display:none;
+  }
+
+  .cover-events {
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    min-width: 330px;
+    transform: translate(9%, 0%);
+  }
+
+
+
+  .blue2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+
+  /*contact*/
+
+  #contacto {
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  form {
+    margin: 1rem 0 0.5rem 0.5rem;
+  }
+
+  .button2 {
+    font-size: 1rem;
+    width: 120px;
+    padding: 0.1rem 0;
+  }
+
+  .contact-icons i {
+    font-size: 1rem;
+  }
+
+  .contact-icons p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+  }
+
+  .contact-icons .col { 
+    padding: 0 ;
+  } 
+
+  .contact-icons a {
+    width: 90%;
+  }
+
+  .contact-icons a i {
+    font-size: 1.4rem;
+  }
+
+  .contact-icons a p {
+    font-size: 1.4rem;
+    padding-top:0.2rem;
+    padding-left:0;
+  }
+
+}
+
+/*<<<<<<<<<479px-780px>>>>>>>>>*/
+@media screen and (min-width: 479px) and (max-width: 780px) {
+  html #b-about,
+  html #b-contact {
+    scroll-behavior: smooth;
+  }
+
+  /*cover*/
+  .hello h4 {
+    font-size: 2.5rem;
+    margin: 40% 50% 5% 0;
+  }
+
+  .hello h1 {
+    font-size: 6rem;
+    margin: 10% 0;
+  }
+
+  .top-buttons a {
+    font-size: 1.5rem;
+    width: 10rem;
+    margin: 5% 15%;
+  }
+
+  /*menu*/
+  .main_menu {
+    display: none;
+  }
+
+  .toggle {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #2c4e79;
+    text-align: right;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+
+  /*.toggle #logo {
+    width: 60px;
+    background: #3a6aa6;
+    float: left;
+    padding: 0;
+  }*/
+
+  #times {
+    font-size: 45px;
+    position: relative;
+    right: 25px;
+    top: 15px;
+  }
+
+  .mobile_menu1 li,
+  .hamburguer-btn {
+    width: 100%;
+    list-style-type: none;
+    font-size: 40px;
+  }
+
+  .hamburguer-btn .fa-bars i,
+  .hambueguer-btn .fa-times i {
+    position: relative;
+    right: 25px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  .mobile_menu1 a li {
+    text-align: center;
+    display: none;
+    font-size: 1.5rem;
+    margin: 0.1rem;
+  }
+
+  .mobile_menu1 a li.active {
+    display: block;
+  }
+
+  /*sections*/
+  .title {
+    font-size: 3.8rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  .title2 {
+    font-size: 3.8rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  .me {
+    width: 14rem;
+    height: 14rem;
+    border: 7px solid #3a6aa6;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .my_description p {
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    margin: 0;
+  }
+
+  #contact_me {
+    font-size: 1.5rem;
+    width: 150px;
+  }
+
+  /*interests*/
+  .icono {
+    font-size: 5rem;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+  }
+
+  /*con .card and .card img se puede regular el tamaño de las tarjetas*/
+  .card {
+    max-height: 20px;
+    padding: none;
+  }
+  .card img {
+    margin: 3rem 0 1rem 0;
+    width: 16rem;
+    padding: 0;
+  }
+  .card-title {
+    margin: 25% 0 5% 0;
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 1.5rem 2.2rem 0 2.2rem;
+  }
+
+  .card-text {
+    font-size: 1;
+    margin-top: 2.5rem;
+  }
+
+  /*eventos*/
+
+  .title2 {
+    font-size: 3.8rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  .carousel-item img {
+    width: 380px;
+    max-height: 320px
+  }
+
+  .carousel-caption h5 {
+    font-size: 1rem;
+    min-width:100%;
+    padding: 0 1rem;
+  }
+
+  .carousel-caption p {
+  display:none;
+  }
+
+  .cover-events {
+    height: 410px;
+    overflow: hidden;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    min-width: 380px;
+    transform: translate(9%, 0%);
+  }
+
+  .blue2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+  /*contact*/
+
+  .contact-icons i {
+    font-size: 1.2rem;
+  }
+
+  .contact-icons p {
+    font-size: 1.3rem;
+  }
+
+  #contacto {
+    width: 95%;
+  }
+
+  form {
+    margin: 1rem 0 0.5rem 2.5rem;
+  }
+
+  .button2 {
+    font-size: 1.2rem;
+    width: 120px;
+    padding: 0.1rem 0;
+  }
+
+  .button2:hover {
+    width: 120px;
+  }
+  .contact-icons .col { 
+    padding: 5px ;
+  } 
+
+  .contact-icons a {
+    width: 80%;
+  }
+
+  .contact-icons a i {
+    font-size: 1.5rem;
+    margin-left: 50px;
+  }
+
+  .contact-icons a p {
+    font-size: 1.3rem;
+    padding-top:0.15rem;
+    padding-left:0;
+  }
+
+}
+
+/*HASTA 780PX SE APLICAN CAMBIOS AL SCROLL DE LOS ENLACES*/
+
+/*<<<<<<<<<781px-1000>>>>>>>>>*/
+@media screen and (min-width: 781px) and (max-width: 900px) {
+  .container {
+    overflow-x: hidden;
+  }
+  /*NAVBAR*/
+  nav li {
+    font-size: 1rem;
+    width: 8.1rem;
+  }
+
+  ul li:hover {
+    transition: 0.2s ease;
+    background: #fff;
+    color: #3a6aa6;
+    font-weight:bolder;
+  }
+
+  /*Cover*/
+  .hello h4 {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', cursive;
+    margin: 20% 70% 0 0;
+  }
+  
+  .hello h1 {
+    font-size: 5rem;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin: auto;
+  }
+
+  .button {
+    font-size: 1.3rem;
+    border: solid 3px #3a6aa6;
+    width: 200px;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+    background: transparent;
+    border: solid 3px #fff;
+    color: #fff;
+    border-color: #fff;
+  }
+/*Intereses*/
+  .icono {
+    font-size: 5rem;
+    padding: 2rem;
+    margin: 1.5rem;
+    width: 10rem;
+    height: 10rem;
+    color: #fff;
+    transition: 0.25s;
+  }
+
+  .icono:hover {
+    border-radius: 50%;
+    background: #fff;
+    color: #3a6aa6;
+    box-shadow: 0 0 25px #8bb;
+  }
+
+  /*My info*/
+  .title{
+    font-size: 4rem;
+  }
+
+  .title2{
+    font-size: 4rem;
+  }
+  
+  .me {
+    width: 15rem;
+    height: 15rem;
+    border: 7px solid #3a6aa6;
+  }
+  .about-button {
+    background: #3a6aa6;
+    color: #fff;
+    font-size: 1.3rem;
+    width: 200px;
+  }
+  
+  .about-button:hover {
+    text-decoration: none;
+    background: transparent;
+    border-color: #3a6aa6;
+    border: solid 3px;
+    color: #3a6aa6;
+  }
+  
+  p{
+    font-size: 1.2rem;
+  }
+
+  /*con .card and .card img se puede regular el tamaño de las tarjetas*/
+  .card {
+    min-height: 2.5rem;
+  }
+  .card img {
+    width: 12rem;
+    padding: 2.5rem 0 0 0;
+    margin: 0;
+  }
+
+  .card-title {
+    margin: 25% 0 5% 0;
+    color: #fff;
+    font-size: 16px;
+    margin: 1.5rem 2.2rem 0 2.2rem;
+  }
+
+  .card-text {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+
+  /*eventos*/
+  .carousel-caption h5 {
+    font-size: 1.8rem;
+    margin-bottom: 1%;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+    margin-bottom: 1%;
+  }
+
+  .carousel-item img {
+    width: 560px;
+  }
+
+  .blue2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .cover-events {
+    height: 660px;
+    overflow: hidden;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    min-width: 560px;
+    transform: translate(11.5%, 0%);
+  }
+  /*contact*/
+
+  .contact-icons a {
+    width: 85%;
+    float: left;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #3a6aa6;
+  }
+
+  .contact-icons .col {
+  padding: 5px;
+  }
+
+  .contact-icons a:hover {
+    text-decoration: none;
+  }
+
+  .contact-icons p {
+    font-size: 1.2rem;
+  }
+  .button2 {
+    background: #3a6aa6;
+    color: #fff;
+    font-size: 1.2rem;
+    border: solid 3px;
+    width: 180px;
+  }
+  
+  .button2:hover {
+    background: #fff;
+    color: #3a6aa6;
+    border-color: #3a6aa6;
+    padding: 0.5rem;
+    width: 180px;
+  }
+
+}
+
+/*<<<<<<<<<901px - 950px>>>>>>>>>*/
+@media screen and (min-width: 901px) and (max-width: 950px) {
+  /*body*/
+  .container {
+    width: 100%;
+  }
+  .hello h4 {
+    font-size: 2.5rem;
+  }
+
+  .hello h1 {
+    font-size: 6rem;
+  }
+
+  .top-buttons a {
+    font-size: 1.5rem;
+    width: 11rem;
+  }
+  nav li {
+    font-size: 1rem;
+    width: 9rem;
+  }
+
+  .title{
+    font-size: 4rem;
+  }
+  .title2{
+    font-size: 4rem;
+  }
+  /*about*/
+  .me {
+    margin-top: 0.5rem;
+    height: 15rem;
+    width: 15rem;
+    border: 8px solid #3a6aa6;
+  }
+
+  .my_description p {
+    font-size: 0.95rem;
+    margin: 0.5rem;
+    padding: none;
+  }
+
+  #contact_me {
+    font-size: 1.5rem;
+    width: 180px;
+  }
+
+  /*Interests*/
+  .icono {
+    font-size: 4.5rem;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .interest-descr {
+    font-size: 1.8rem;
+  }
+
+  /*today*/
+  /*con .card and .card img se puede regular el tamaño de las tarjetas*/
+  .card {
+    min-height: 3rem;
+  }
+  .card img {
+    width: 12rem;
+    padding: 2.5rem 0 0 0;
+    margin: 0;
+  }
+
+  .card-title {
+    margin: 25% 0 5% 0;
+    color: #fff;
+    font-size: 16px;
+    margin: 1.5rem 2.2rem 0 2.2rem;
+  }
+
+  .card-text {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+
+  /*eventos*/
+
+  .carousel-caption h5 {
+    font-size: 1.8rem;
+    margin-bottom: 2%;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+    margin-bottom: 2%;
+  }
+
+  .carousel-item img {
+    width: 650px;
+  }
+
+  .blue2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .cover-events {
+    height: 650px;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    min-width: 650px;
+    transform: translate(3%, 0%);
+  }
+  /*contact*/
+  .button2 {
+    font-size: 1.4rem;
+    width: 150px;
+  }
+
+  .contact-icons .col {
+    padding: 5px;
+  }
+
+  .contact-icons a {
+    width: 80%;
+    float: left;
+    font-size: 1.4rem;
+  }
+
+  .contact-icons i {
+    font-size: 1.5rem;
+  }
+  .responsive {
+    display: none;
+  }
+}
+
+/*<<<<<<<<<951px - 985px>>>>>>>>>*/
+@media screen and (min-width: 951px) and (max-width: 985px) {
+  /*body*/
+
+  .hello h4 {
+    font-size: 2rem;
+  }
+
+  .hello h1 {
+    font-size: 6rem;
+  }
+
+  .top-buttons a {
+    font-size: 1.5rem;
+    width: 12rem;
+  }
+  nav li {
+    font-size: 1rem;
+    width: 9rem;
+  }
+
+  /*about*/
+  .me {
+    margin-top: 0.5rem;
+    width: 16rem;
+    height: 16rem;
+    border: #3a6aa6 solid 7px;
+  }
+
+  .title{
+    font-size: 3.5rem;
+  }
+  .title2{
+    font-size: 3.5rem;
+  }
+
+  .my_description p {
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: none;
+  }
+
+  #contact_me {
+    font-size: 1.2rem;
+    width: 160px;
+  }
+
+  /*Interests*/
+  .icono {
+    font-size: 4rem;
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .interest-descr {
+    font-size: 1.8rem;
+  }
+
+  /*today*/
+  /*con .card and .card img se puede regular el tamaño de las tarjetas*/
+  .card {
+    min-height: 3rem;
+  }
+  .card img {
+    width: 12rem;
+    padding: 2.5rem 0 0 0;
+    margin: 0;
+  }
+
+  .card-title {
+    margin: 25% 0 5% 0;
+    color: #fff;
+    font-size: 16px;
+    margin: 1.5rem 2.2rem 0 2.2rem;
+  }
+
+  .card-text {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+  /*eventos*/
+  .carousel-caption h5 {
+    font-size: 1.8rem;
+    margin-bottom: 2%;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+    margin-bottom: 2%;
+  }
+
+  .carousel-item img {
+    width: 700px;
+  }
+
+  .blue2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .cover-events {
+    height: 700px;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    min-width: 700px;
+    transform: translate(0%, 0%);
+  }
+  /*contact*/
+  .button2 {
+    font-size: 1.1rem;
+    width: 130px;
+  }
+
+  .button2:hover {
+    background: #fff;
+    color: #3a6aa6;
+    border-color: #3a6aa6;
+    padding: 0.5rem;
+    width: 130px;
+  }
+  
+  .contact-icons .col {
+padding: 5px;
+  }
+
+  .contact-icons a {
+    width: 85%;
+    float: left;
+    font-size: 1.45rem;
+  }
+
+  .contact-icons i {
+    font-size: 1.4rem;
+  }
+  .responsive {
+    display: none;
+  }
+}
+
+/*<<<<<<<<<986px - 1290px>>>>>>>>>*/
+@media screen and (min-width: 986px) and (max-width: 1290px) {
+  /*body*/
+  .hello h4 {
+    font-size: 2.5rem;
+    margin: 10% 70% 0% 0%;
+    padding: none;
+  }
+
+  .hello h1 {
+    font-size: 5.5rem;
+    margin-top: 10%;
+    margin-bottom: 0%;
+  }
+  .top-buttons a {
+    font-size: 1.5rem;
+    width: 11rem;
+
+  }
+.title{
+  font-size:3.5rem;
+}
+
+.title2{
+  font-size:3.5rem;
+}
+
+  .me {
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    align-self: center;
+    border: 8px solid #3a6aa6;
+  }
+
+  .my_description p{
+    font-size: 1.2rem;
+  }
+
+  .about-button {
+    font-size: 1.1rem;
+    width: 180px;
+  }
+  .icono {
+    font-size: 5rem;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  /*today*/
+  /*con .card and .card img se puede regular el tamaño de las tarjetas*/
+  .card {
+    min-height: 4rem;
+  }
+  .card img {
+    width: 12rem;
+    padding: 2.5rem 0 0 0;
+    margin: 0;
+  }
+
+  .card-title {
+    margin: 25% 0 5% 0;
+    color: #fff;
+    font-size: 16px;
+    margin: 1.5rem 2.2rem 0 2.2rem;
+  }
+
+  .card-text {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+
+  /*eventos*/
+  .carousel-caption h5 {
+    font-size: 2.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.1rem;
+  }
+
+  .carousel-item img {
+    width: 700px;
+  }
+
+  .blue2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .cover-events {
+    height: 700px;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    min-width: 700px;
+    transform: translate(0%, 0%);
+  }
+  /*contact*/
+  .button2 {
+    font-size: 1.1rem;
+    width: 150px;
+  }
+
+  .button2:hover {
+    font-size: 1.1rem;
+    width: 150px;
+  }
+
+
+  .contact-icons .col {
+padding: 5px;
+  }
+
+  .contact-icons a {
+    width: 85%;
+    float: left;
+    font-size: 1.5rem;
+ 
+  }
+
+  .contact-icons i {
+    font-size: 1.5rem;
+  }
+}
+
+/*<<<<<<<<<1290px - 1366px>>>>>>>>>*/
+@media screen and (min-width: 1290px) and (max-width: 1366px) {
+  /*COVER*/
+  .cover-content {
+    margin-top: 7rem;
+  }
+
+  .cover-content h4 {
+    font-size: 2rem;
+    margin-top: 3%;
+  }
+
+  .cover-content h1 {
+    font-size: 8.5rem;
+  }
+
+  .top-buttons a {
+    font-size: 1.5rem;
+    width: 12rem;
+  }
+
+  .top-buttons a:hover {
+    border: solid 2.5px;
+  }
+
+  /*body*/
+  .title {
+    font-size: 5rem;
+  }
+
+  /*about*/
+  .my_description {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  #contact_me {
+    margin: 0rem;
+    font-size: 1.5rem;
+    width: 12rem;
+  }
+
+  /*Interests*/
+  .icono {
+    font-size: 5rem;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .interest-descr {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    min-height: 3rem;
+  }
+
+  .card img {
+    width: 15rem;
+    height: auto;
+  }
+
+  .card-title {
+    margin-top: 25%;
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .card-text {
+    font-size: 17px;
+  }
+
+  /*eventos*/
+  .carousel-caption h5 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+
+  .carousel-item img {
+    width: 675px;
+  }
+
+  .blue2 {
+    padding: 4rem 0 4rem 0;
+  }
+
+  .cover-events {
+    height: 100vh;
+  }
+
+  .carousel-inner2 {
+    margin: 3rem;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    height: 100vh;
+    min-width: 675px;
+    position: absolute;
+    align-items: center;
+    transform: translate(25%, 0%);
+    top: 0;
+    left: 0;
+    opacity: 0.18;
+    z-index: 1;
+  }
+
+  /*contact*/
+  .responsive {
+    display: none;
+  }
+}
+
+
+/*<<<<<<<<<1366px - morepx>>>>>>>>>*/
+@media screen and (min-width: 1367px) {
+  /*COVER*/
+  .cover-content {
+    margin-top: 7rem;
+  }
+
+  .cover-content h4 {
+    font-size: 2rem;
+    margin-top: 3%;
+  }
+
+  .cover-content h1 {
+    font-size: 8.5rem;
+  }
+
+  .top-buttons a {
+    font-size: 1.5rem;
+    width: 12rem;
+  }
+
+  .top-buttons a:hover {
+    border: solid 2.5px;
+  }
+
+  /*body*/
+  .title {
+    font-size: 5rem;
+  }
+
+  /*about*/
+  .my_description {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  #contact_me {
+    margin: 0rem;
+    font-size: 1.5rem;
+    width: 12rem;
+  }
+
+  /*Interests*/
+  .icono {
+    font-size: 5rem;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .interest-descr {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    min-height: 3rem;
+  }
+
+  .card img {
+    width: 15rem;
+    height: auto;
+  }
+
+  .card-title {
+    margin-top: 25%;
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .card-text {
+    font-size: 17px;
+  }
+
+  /*eventos*/
+  .carousel-caption h5 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+
+  .carousel-item img {
+    width: 850px;
+    min-height: 550px;
+  }
+
+  .blue2 {
+    padding: 4rem 0 4rem 0;
+  }
+
+  .cover-events {
+    height: 80vh;
+  }
+
+  .carousel-inner2 {
+    margin: 3rem;
+  }
+
+  .carousel-overlay {
+    background-color: #000;
+    height: 100vh;
+    min-width: 850px;
+    position: absolute;
+    align-items: center;
+    transform: translate(9.6%, 0%);
+    top: 0;
+    left: 0;
+    opacity: 0.18;
+    z-index: 1;
+  }
+
+  /*contact*/
+  .responsive {
+    display: none;
+  }
+}
